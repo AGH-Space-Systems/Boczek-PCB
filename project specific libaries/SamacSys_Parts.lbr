@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SOT230P700X180-4N">
+<description>&lt;b&gt;3-Lead Plastic Small Outline Transistor (DB) [SOT-223]&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-3.15" y="2.3" dx="1.75" dy="0.95" layer="1"/>
+<smd name="2" x="-3.15" y="0" dx="1.75" dy="0.95" layer="1"/>
+<smd name="3" x="-3.15" y="-2.3" dx="1.75" dy="0.95" layer="1"/>
+<smd name="4" x="3.15" y="0" dx="3.2" dy="1.75" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-4.275" y1="3.6" x2="4.275" y2="3.6" width="0.05" layer="51"/>
+<wire x1="4.275" y1="3.6" x2="4.275" y2="-3.6" width="0.05" layer="51"/>
+<wire x1="4.275" y1="-3.6" x2="-4.275" y2="-3.6" width="0.05" layer="51"/>
+<wire x1="-4.275" y1="-3.6" x2="-4.275" y2="3.6" width="0.05" layer="51"/>
+<wire x1="-1.75" y1="3.25" x2="1.75" y2="3.25" width="0.1" layer="51"/>
+<wire x1="1.75" y1="3.25" x2="1.75" y2="-3.25" width="0.1" layer="51"/>
+<wire x1="1.75" y1="-3.25" x2="-1.75" y2="-3.25" width="0.1" layer="51"/>
+<wire x1="-1.75" y1="-3.25" x2="-1.75" y2="3.25" width="0.1" layer="51"/>
+<wire x1="-1.75" y1="0.95" x2="0.55" y2="3.25" width="0.1" layer="51"/>
+<wire x1="-1.75" y1="3.25" x2="1.75" y2="3.25" width="0.2" layer="21"/>
+<wire x1="1.75" y1="3.25" x2="1.75" y2="-3.25" width="0.2" layer="21"/>
+<wire x1="1.75" y1="-3.25" x2="-1.75" y2="-3.25" width="0.2" layer="21"/>
+<wire x1="-1.75" y1="-3.25" x2="-1.75" y2="3.25" width="0.2" layer="21"/>
+<wire x1="-4.025" y1="3.125" x2="-2.275" y2="3.125" width="0.2" layer="21"/>
+</package>
+<package name="SOT95P280X130-5N">
+<description>&lt;b&gt;5-pin SOT-23 (M5)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.25" y="0.95" dx="1.2" dy="0.6" layer="1"/>
+<smd name="2" x="-1.25" y="0" dx="1.2" dy="0.6" layer="1"/>
+<smd name="3" x="-1.25" y="-0.95" dx="1.2" dy="0.6" layer="1"/>
+<smd name="4" x="1.25" y="-0.95" dx="1.2" dy="0.6" layer="1"/>
+<smd name="5" x="1.25" y="0.95" dx="1.2" dy="0.6" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.1" y1="1.75" x2="2.1" y2="1.75" width="0.05" layer="51"/>
+<wire x1="2.1" y1="1.75" x2="2.1" y2="-1.75" width="0.05" layer="51"/>
+<wire x1="2.1" y1="-1.75" x2="-2.1" y2="-1.75" width="0.05" layer="51"/>
+<wire x1="-2.1" y1="-1.75" x2="-2.1" y2="1.75" width="0.05" layer="51"/>
+<wire x1="-0.8" y1="1.45" x2="0.8" y2="1.45" width="0.1" layer="51"/>
+<wire x1="0.8" y1="1.45" x2="0.8" y2="-1.45" width="0.1" layer="51"/>
+<wire x1="0.8" y1="-1.45" x2="-0.8" y2="-1.45" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="-1.45" x2="-0.8" y2="1.45" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="0.5" x2="0.15" y2="1.45" width="0.1" layer="51"/>
+<wire x1="-0.3" y1="1.45" x2="0.3" y2="1.45" width="0.2" layer="21"/>
+<wire x1="0.3" y1="1.45" x2="0.3" y2="-1.45" width="0.2" layer="21"/>
+<wire x1="0.3" y1="-1.45" x2="-0.3" y2="-1.45" width="0.2" layer="21"/>
+<wire x1="-0.3" y1="-1.45" x2="-0.3" y2="1.45" width="0.2" layer="21"/>
+<wire x1="-1.85" y1="1.5" x2="-0.65" y2="1.5" width="0.2" layer="21"/>
+</package>
+<package name="QFN50P400X400X85-21N">
+<description>&lt;b&gt;RFPA5542BTR13&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.9" y="1" dx="0.95" dy="0.3" layer="1"/>
+<smd name="2" x="-1.9" y="0.5" dx="0.95" dy="0.3" layer="1"/>
+<smd name="3" x="-1.9" y="0" dx="0.95" dy="0.3" layer="1"/>
+<smd name="4" x="-1.9" y="-0.5" dx="0.95" dy="0.3" layer="1"/>
+<smd name="5" x="-1.9" y="-1" dx="0.95" dy="0.3" layer="1"/>
+<smd name="6" x="-1" y="-1.9" dx="0.95" dy="0.3" layer="1" rot="R90"/>
+<smd name="7" x="-0.5" y="-1.9" dx="0.95" dy="0.3" layer="1" rot="R90"/>
+<smd name="8" x="0" y="-1.9" dx="0.95" dy="0.3" layer="1" rot="R90"/>
+<smd name="9" x="0.5" y="-1.9" dx="0.95" dy="0.3" layer="1" rot="R90"/>
+<smd name="10" x="1" y="-1.9" dx="0.95" dy="0.3" layer="1" rot="R90"/>
+<smd name="11" x="1.9" y="-1" dx="0.95" dy="0.3" layer="1"/>
+<smd name="12" x="1.9" y="-0.5" dx="0.95" dy="0.3" layer="1"/>
+<smd name="13" x="1.9" y="0" dx="0.95" dy="0.3" layer="1"/>
+<smd name="14" x="1.9" y="0.5" dx="0.95" dy="0.3" layer="1"/>
+<smd name="15" x="1.9" y="1" dx="0.95" dy="0.3" layer="1"/>
+<smd name="16" x="1" y="1.9" dx="0.95" dy="0.3" layer="1" rot="R90"/>
+<smd name="17" x="0.5" y="1.9" dx="0.95" dy="0.3" layer="1" rot="R90"/>
+<smd name="18" x="0" y="1.9" dx="0.95" dy="0.3" layer="1" rot="R90"/>
+<smd name="19" x="-0.5" y="1.9" dx="0.95" dy="0.3" layer="1" rot="R90"/>
+<smd name="20" x="-1" y="1.9" dx="0.95" dy="0.3" layer="1" rot="R90"/>
+<text x="0" y="-3.81" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="3.81" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.625" y1="2.625" x2="2.625" y2="2.625" width="0.05" layer="51"/>
+<wire x1="2.625" y1="2.625" x2="2.625" y2="-2.625" width="0.05" layer="51"/>
+<wire x1="2.625" y1="-2.625" x2="-2.625" y2="-2.625" width="0.05" layer="51"/>
+<wire x1="-2.625" y1="-2.625" x2="-2.625" y2="2.625" width="0.05" layer="51"/>
+<wire x1="-2" y1="2" x2="2" y2="2" width="0.1" layer="51"/>
+<wire x1="2" y1="2" x2="2" y2="-2" width="0.1" layer="51"/>
+<wire x1="2" y1="-2" x2="-2" y2="-2" width="0.1" layer="51"/>
+<wire x1="-2" y1="-2" x2="-2" y2="2" width="0.1" layer="51"/>
+<wire x1="-2" y1="1.5" x2="-1.5" y2="2" width="0.1" layer="51"/>
+<circle x="-2.375" y="1.75" radius="0.125" width="0.25" layer="25"/>
+<pad name="P$1" x="-0.889" y="0.889" drill="0.25" diameter="0.254" thermals="no"/>
+<pad name="P$2" x="-0.889" y="-0.889" drill="0.25" diameter="0.254" thermals="no"/>
+<pad name="P$4" x="0" y="0.889" drill="0.25" diameter="0.254" thermals="no"/>
+<pad name="P$5" x="0.889" y="0.889" drill="0.25" diameter="0.254" thermals="no"/>
+<pad name="P$3" x="0" y="-0.889" drill="0.25" diameter="0.254" thermals="no"/>
+<pad name="P$6" x="0.889" y="-0.889" drill="0.25" diameter="0.254" thermals="no"/>
+<pad name="P$7" x="0.889" y="0" drill="0.25" diameter="0.254" thermals="no"/>
+<pad name="P$8" x="-0.889" y="0" drill="0.25" diameter="0.254" thermals="no"/>
+<pad name="P$9" x="0" y="0" drill="0.25" diameter="0.254" thermals="no"/>
+<polygon width="0.127" layer="1">
+<vertex x="-1.143" y="1.016" curve="-90"/>
+<vertex x="-1.016" y="1.143"/>
+<vertex x="0.889" y="1.143"/>
+<vertex x="1.016" y="1.143" curve="-90"/>
+<vertex x="1.143" y="1.016"/>
+<vertex x="1.143" y="-0.889"/>
+<vertex x="1.143" y="-1.016" curve="-90"/>
+<vertex x="1.016" y="-1.143"/>
+<vertex x="-0.889" y="-1.143"/>
+<vertex x="-1.016" y="-1.143" curve="-90"/>
+<vertex x="-1.143" y="-1.016"/>
+</polygon>
+</package>
+<package name="SOT95P280X145-5N">
+<description>&lt;b&gt;DBV (R-PDSO-G5)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.25" y="0.95" dx="1.2" dy="0.6" layer="1"/>
+<smd name="2" x="-1.25" y="0" dx="1.2" dy="0.6" layer="1"/>
+<smd name="3" x="-1.25" y="-0.95" dx="1.2" dy="0.6" layer="1"/>
+<smd name="4" x="1.25" y="-0.95" dx="1.2" dy="0.6" layer="1"/>
+<smd name="5" x="1.25" y="0.95" dx="1.2" dy="0.6" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.1" y1="1.775" x2="2.1" y2="1.775" width="0.05" layer="51"/>
+<wire x1="2.1" y1="1.775" x2="2.1" y2="-1.775" width="0.05" layer="51"/>
+<wire x1="2.1" y1="-1.775" x2="-2.1" y2="-1.775" width="0.05" layer="51"/>
+<wire x1="-2.1" y1="-1.775" x2="-2.1" y2="1.775" width="0.05" layer="51"/>
+<wire x1="-0.8" y1="1.45" x2="0.8" y2="1.45" width="0.1" layer="51"/>
+<wire x1="0.8" y1="1.45" x2="0.8" y2="-1.45" width="0.1" layer="51"/>
+<wire x1="0.8" y1="-1.45" x2="-0.8" y2="-1.45" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="-1.45" x2="-0.8" y2="1.45" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="0.5" x2="0.15" y2="1.45" width="0.1" layer="51"/>
+<wire x1="-0.3" y1="1.45" x2="0.3" y2="1.45" width="0.2" layer="21"/>
+<wire x1="0.3" y1="1.45" x2="0.3" y2="-1.45" width="0.2" layer="21"/>
+<wire x1="0.3" y1="-1.45" x2="-0.3" y2="-1.45" width="0.2" layer="21"/>
+<wire x1="-0.3" y1="-1.45" x2="-0.3" y2="1.45" width="0.2" layer="21"/>
+<wire x1="-1.85" y1="1.5" x2="-0.65" y2="1.5" width="0.2" layer="21"/>
+</package>
+<package name="QFN50P400X400X100-25N">
+<description>&lt;b&gt;24-VFQFN-A&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.05" y="1.25" dx="0.7" dy="0.3" layer="1"/>
+<smd name="2" x="-2.05" y="0.75" dx="0.7" dy="0.3" layer="1"/>
+<smd name="3" x="-2.05" y="0.25" dx="0.7" dy="0.3" layer="1"/>
+<smd name="4" x="-2.05" y="-0.25" dx="0.7" dy="0.3" layer="1"/>
+<smd name="5" x="-2.05" y="-0.75" dx="0.7" dy="0.3" layer="1"/>
+<smd name="6" x="-2.05" y="-1.25" dx="0.7" dy="0.3" layer="1"/>
+<smd name="7" x="-1.25" y="-2" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="8" x="-0.75" y="-2" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="9" x="-0.25" y="-2" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="10" x="0.25" y="-2" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="11" x="0.75" y="-2" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="12" x="1.25" y="-2" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="13" x="2.05" y="-1.25" dx="0.7" dy="0.3" layer="1"/>
+<smd name="14" x="2.05" y="-0.75" dx="0.7" dy="0.3" layer="1"/>
+<smd name="15" x="2.05" y="-0.25" dx="0.7" dy="0.3" layer="1"/>
+<smd name="16" x="2.05" y="0.25" dx="0.7" dy="0.3" layer="1"/>
+<smd name="17" x="2.05" y="0.75" dx="0.7" dy="0.3" layer="1"/>
+<smd name="18" x="2.05" y="1.25" dx="0.7" dy="0.3" layer="1"/>
+<smd name="19" x="1.25" y="2" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="20" x="0.75" y="2" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="21" x="0.25" y="2" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="22" x="-0.25" y="2" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="23" x="-0.75" y="2" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="24" x="-1.25" y="2" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="25" x="0" y="0" dx="2.95" dy="2.56" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.625" y1="2.625" x2="2.625" y2="2.625" width="0.05" layer="51"/>
+<wire x1="2.625" y1="2.625" x2="2.625" y2="-2.625" width="0.05" layer="51"/>
+<wire x1="2.625" y1="-2.625" x2="-2.625" y2="-2.625" width="0.05" layer="51"/>
+<wire x1="-2.625" y1="-2.625" x2="-2.625" y2="2.625" width="0.05" layer="51"/>
+<wire x1="-2" y1="2" x2="2" y2="2" width="0.1" layer="51"/>
+<wire x1="2" y1="2" x2="2" y2="-2" width="0.1" layer="51"/>
+<wire x1="2" y1="-2" x2="-2" y2="-2" width="0.1" layer="51"/>
+<wire x1="-2" y1="-2" x2="-2" y2="2" width="0.1" layer="51"/>
+<wire x1="-2" y1="1.5" x2="-1.5" y2="2" width="0.1" layer="51"/>
+<circle x="-2.4" y="2" radius="0.125" width="0.25" layer="25"/>
+</package>
+<package name="QFN50P300X300X100-17N">
+<description>&lt;b&gt;QFN-2021&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.55" y="0.75" dx="0.7" dy="0.3" layer="1"/>
+<smd name="2" x="-1.55" y="0.25" dx="0.7" dy="0.3" layer="1"/>
+<smd name="3" x="-1.55" y="-0.25" dx="0.7" dy="0.3" layer="1"/>
+<smd name="4" x="-1.55" y="-0.75" dx="0.7" dy="0.3" layer="1"/>
+<smd name="5" x="-0.75" y="-1.55" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="6" x="-0.25" y="-1.55" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="7" x="0.25" y="-1.55" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="8" x="0.75" y="-1.55" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="9" x="1.55" y="-0.75" dx="0.7" dy="0.3" layer="1"/>
+<smd name="10" x="1.55" y="-0.25" dx="0.7" dy="0.3" layer="1"/>
+<smd name="11" x="1.55" y="0.25" dx="0.7" dy="0.3" layer="1"/>
+<smd name="12" x="1.55" y="0.75" dx="0.7" dy="0.3" layer="1"/>
+<smd name="13" x="0.75" y="1.55" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="14" x="0.25" y="1.55" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="15" x="-0.25" y="1.55" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="16" x="-0.75" y="1.55" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="17" x="0" y="0" dx="1.95" dy="1.95" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.125" y1="2.125" x2="2.125" y2="2.125" width="0.05" layer="51"/>
+<wire x1="2.125" y1="2.125" x2="2.125" y2="-2.125" width="0.05" layer="51"/>
+<wire x1="2.125" y1="-2.125" x2="-2.125" y2="-2.125" width="0.05" layer="51"/>
+<wire x1="-2.125" y1="-2.125" x2="-2.125" y2="2.125" width="0.05" layer="51"/>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.1" layer="51"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="1" x2="-1" y2="1.5" width="0.1" layer="51"/>
+<circle x="-1.9" y="1.5" radius="0.125" width="0.25" layer="25"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MCP1826S-3302E_DB">
+<wire x1="5.08" y1="2.54" x2="40.64" y2="2.54" width="0.254" layer="94"/>
+<wire x1="40.64" y1="-7.62" x2="40.64" y2="2.54" width="0.254" layer="94"/>
+<wire x1="40.64" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<text x="41.91" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="41.91" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="VIN" x="0" y="0" length="middle"/>
+<pin name="GND_(TAB)_1" x="0" y="-2.54" length="middle"/>
+<pin name="VOUT" x="0" y="-5.08" length="middle"/>
+<pin name="GND_(TAB)_2" x="45.72" y="0" length="middle" rot="R180"/>
+</symbol>
+<symbol name="MIC94310-SYM5-TR">
+<wire x1="5.08" y1="2.54" x2="22.86" y2="2.54" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-7.62" x2="22.86" y2="2.54" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<text x="24.13" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="24.13" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="VIN" x="0" y="0" length="middle"/>
+<pin name="GND" x="0" y="-2.54" length="middle"/>
+<pin name="EN" x="0" y="-5.08" length="middle"/>
+<pin name="NC" x="27.94" y="0" length="middle" direction="nc" rot="R180"/>
+<pin name="VOUT" x="27.94" y="-2.54" length="middle" rot="R180"/>
+</symbol>
+<symbol name="RFPA5542BTR13">
+<wire x1="5.08" y1="12.7" x2="25.4" y2="12.7" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-20.32" x2="25.4" y2="12.7" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-20.32" x2="5.08" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="5.08" y1="12.7" x2="5.08" y2="-20.32" width="0.254" layer="94"/>
+<text x="26.67" y="17.78" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="26.67" y="15.24" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="NC_1" x="0" y="0" length="middle"/>
+<pin name="GND_1" x="0" y="-2.54" length="middle"/>
+<pin name="RFIN" x="0" y="-5.08" length="middle"/>
+<pin name="GND_2" x="0" y="-7.62" length="middle"/>
+<pin name="PA_EN" x="0" y="-10.16" length="middle"/>
+<pin name="NC_2" x="10.16" y="-25.4" length="middle" rot="R90"/>
+<pin name="NC_3" x="12.7" y="-25.4" length="middle" rot="R90"/>
+<pin name="NC_4" x="15.24" y="-25.4" length="middle" rot="R90"/>
+<pin name="NC_5" x="17.78" y="-25.4" length="middle" rot="R90"/>
+<pin name="PDET" x="20.32" y="-25.4" length="middle" rot="R90"/>
+<pin name="GND_6" x="30.48" y="0" length="middle" rot="R180"/>
+<pin name="GND_5" x="30.48" y="-2.54" length="middle" rot="R180"/>
+<pin name="RFOUT" x="30.48" y="-5.08" length="middle" rot="R180"/>
+<pin name="GND_4" x="30.48" y="-7.62" length="middle" rot="R180"/>
+<pin name="GND_3" x="30.48" y="-10.16" length="middle" rot="R180"/>
+<pin name="GND_9" x="7.62" y="17.78" length="middle" rot="R270"/>
+<pin name="VCC1" x="10.16" y="17.78" length="middle" rot="R270"/>
+<pin name="VCC2" x="12.7" y="17.78" length="middle" rot="R270"/>
+<pin name="VCC3" x="15.24" y="17.78" length="middle" rot="R270"/>
+<pin name="GND_8" x="17.78" y="17.78" length="middle" rot="R270"/>
+<pin name="GND_7" x="20.32" y="17.78" length="middle" rot="R270"/>
+</symbol>
+<symbol name="TPS613222ADBVR">
+<wire x1="5.08" y1="2.54" x2="22.86" y2="2.54" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-7.62" x2="22.86" y2="2.54" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<text x="24.13" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="24.13" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="SW" x="0" y="0" length="middle"/>
+<pin name="GND" x="0" y="-2.54" length="middle"/>
+<pin name="NC_1" x="0" y="-5.08" length="middle"/>
+<pin name="VOUT" x="27.94" y="0" length="middle" rot="R180"/>
+<pin name="NC_2" x="27.94" y="-2.54" length="middle" rot="R180"/>
+</symbol>
+<symbol name="HMC430LP4ETR">
+<wire x1="5.08" y1="12.7" x2="30.48" y2="12.7" width="0.254" layer="94"/>
+<wire x1="30.48" y1="-25.4" x2="30.48" y2="12.7" width="0.254" layer="94"/>
+<wire x1="30.48" y1="-25.4" x2="5.08" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="5.08" y1="12.7" x2="5.08" y2="-25.4" width="0.254" layer="94"/>
+<text x="31.75" y="17.78" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="31.75" y="15.24" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="N/C_1" x="0" y="0" length="middle"/>
+<pin name="N/C_2" x="0" y="-2.54" length="middle"/>
+<pin name="N/C_3" x="0" y="-5.08" length="middle"/>
+<pin name="N/C_4" x="0" y="-7.62" length="middle"/>
+<pin name="N/C_5" x="0" y="-10.16" length="middle"/>
+<pin name="N/C_6" x="0" y="-12.7" length="middle"/>
+<pin name="N/C_7" x="10.16" y="-30.48" length="middle" rot="R90"/>
+<pin name="N/C_8" x="12.7" y="-30.48" length="middle" rot="R90"/>
+<pin name="N/C_9" x="15.24" y="-30.48" length="middle" rot="R90"/>
+<pin name="N/C_10" x="17.78" y="-30.48" length="middle" rot="R90"/>
+<pin name="N/C_11" x="20.32" y="-30.48" length="middle" rot="R90"/>
+<pin name="N/C_12" x="22.86" y="-30.48" length="middle" rot="R90"/>
+<pin name="N/C_16" x="35.56" y="0" length="middle" rot="R180"/>
+<pin name="N/C_15" x="35.56" y="-2.54" length="middle" rot="R180"/>
+<pin name="RFOUT" x="35.56" y="-5.08" length="middle" rot="R180"/>
+<pin name="GND_1" x="35.56" y="-7.62" length="middle" rot="R180"/>
+<pin name="N/C_14" x="35.56" y="-10.16" length="middle" rot="R180"/>
+<pin name="N/C_13" x="35.56" y="-12.7" length="middle" rot="R180"/>
+<pin name="GND_2" x="10.16" y="17.78" length="middle" rot="R270"/>
+<pin name="N/C_20" x="12.7" y="17.78" length="middle" rot="R270"/>
+<pin name="N/C_19" x="15.24" y="17.78" length="middle" rot="R270"/>
+<pin name="VTUNE" x="17.78" y="17.78" length="middle" rot="R270"/>
+<pin name="N/C_18" x="20.32" y="17.78" length="middle" rot="R270"/>
+<pin name="VCC" x="22.86" y="17.78" length="middle" rot="R270"/>
+<pin name="N/C_17" x="25.4" y="17.78" length="middle" rot="R270"/>
+</symbol>
+<symbol name="HMC408LP3E">
+<wire x1="5.08" y1="12.7" x2="30.48" y2="12.7" width="0.254" layer="94"/>
+<wire x1="30.48" y1="-20.32" x2="30.48" y2="12.7" width="0.254" layer="94"/>
+<wire x1="30.48" y1="-20.32" x2="5.08" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="5.08" y1="12.7" x2="5.08" y2="-20.32" width="0.254" layer="94"/>
+<text x="31.75" y="17.78" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="31.75" y="15.24" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="VPD" x="0" y="0" length="middle"/>
+<pin name="N/C_1" x="0" y="-2.54" length="middle"/>
+<pin name="RFIN" x="0" y="-5.08" length="middle"/>
+<pin name="N/C_2" x="0" y="-7.62" length="middle"/>
+<pin name="N/C_3" x="12.7" y="-25.4" length="middle" rot="R90"/>
+<pin name="N/C_4" x="15.24" y="-25.4" length="middle" rot="R90"/>
+<pin name="N/C_5" x="17.78" y="-25.4" length="middle" rot="R90"/>
+<pin name="N/C_6" x="20.32" y="-25.4" length="middle" rot="R90"/>
+<pin name="N/C_7" x="35.56" y="0" length="middle" rot="R180"/>
+<pin name="RFOUT_3" x="35.56" y="-2.54" length="middle" rot="R180"/>
+<pin name="RFOUT_2" x="35.56" y="-5.08" length="middle" rot="R180"/>
+<pin name="RFOUT_1" x="35.56" y="-7.62" length="middle" rot="R180"/>
+<pin name="GND" x="12.7" y="17.78" length="middle" rot="R270"/>
+<pin name="VCC1" x="15.24" y="17.78" length="middle" rot="R270"/>
+<pin name="N/C_9" x="17.78" y="17.78" length="middle" rot="R270"/>
+<pin name="VCC2" x="20.32" y="17.78" length="middle" rot="R270"/>
+<pin name="N/C_8" x="22.86" y="17.78" length="middle" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MCP1826S-3302E_DB" prefix="IC">
+<description>&lt;b&gt;LDO Regulator 1A 3.3V SOT223-3 MCP1826S-3302E/DB, Low Dropout Voltage Regulator, 1A, 3.3 V +/-2%, 2.3  6 Vin, 4-Pin SOT-223&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/22057B.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="MCP1826S-3302E_DB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT230P700X180-4N">
+<connects>
+<connect gate="G$1" pin="GND_(TAB)_1" pad="2"/>
+<connect gate="G$1" pin="GND_(TAB)_2" pad="4"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="LDO Regulator 1A 3.3V SOT223-3 MCP1826S-3302E/DB, Low Dropout Voltage Regulator, 1A, 3.3 V +/-2%, 2.3  6 Vin, 4-Pin SOT-223" constant="no"/>
+<attribute name="HEIGHT" value="1.8mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Microchip" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MCP1826S-3302E/DB" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="579-MCP1826S-3302EDB" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Atmel/MCP1826S-3302E-DB?qs=gsqZ4L1luKqjUo%2Fe%2Fgllfg%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MIC94310-SYM5-TR" prefix="IC">
+<description>&lt;b&gt;LDO Voltage Regulators 200mA LDO with Ripple Blocker&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/MIC94310.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="MIC94310-SYM5-TR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT95P280X130-5N">
+<connects>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="NC" pad="4"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="LDO Voltage Regulators 200mA LDO with Ripple Blocker" constant="no"/>
+<attribute name="HEIGHT" value="1.3mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Microchip" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MIC94310-SYM5-TR" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="998-MIC94310-SYM5TR" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MIC94310-SYM5-TR?qs=U6T8BxXiZAWNaMNWfdoYvQ%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RFPA5542BTR13" prefix="IC">
+<description>&lt;b&gt;RF Amplifier 5GHZ Discrete PA&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.mouser.pl/datasheet/2/412/RFPA5542 Data Sheet-1314453.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="RFPA5542BTR13" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN50P400X400X85-21N">
+<connects>
+<connect gate="G$1" pin="GND_1" pad="2"/>
+<connect gate="G$1" pin="GND_2" pad="4"/>
+<connect gate="G$1" pin="GND_3" pad="11"/>
+<connect gate="G$1" pin="GND_4" pad="12"/>
+<connect gate="G$1" pin="GND_5" pad="14"/>
+<connect gate="G$1" pin="GND_6" pad="15"/>
+<connect gate="G$1" pin="GND_7" pad="16"/>
+<connect gate="G$1" pin="GND_8" pad="17"/>
+<connect gate="G$1" pin="GND_9" pad="P$1 P$2 P$3 P$4 P$5 P$6 P$7 P$8 P$9"/>
+<connect gate="G$1" pin="NC_1" pad="1"/>
+<connect gate="G$1" pin="NC_2" pad="6"/>
+<connect gate="G$1" pin="NC_3" pad="7"/>
+<connect gate="G$1" pin="NC_4" pad="8"/>
+<connect gate="G$1" pin="NC_5" pad="9"/>
+<connect gate="G$1" pin="PA_EN" pad="5"/>
+<connect gate="G$1" pin="PDET" pad="10"/>
+<connect gate="G$1" pin="RFIN" pad="3"/>
+<connect gate="G$1" pin="RFOUT" pad="13"/>
+<connect gate="G$1" pin="VCC1" pad="20"/>
+<connect gate="G$1" pin="VCC2" pad="19"/>
+<connect gate="G$1" pin="VCC3" pad="18"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="RF Amplifier 5GHZ Discrete PA" constant="no"/>
+<attribute name="HEIGHT" value="0.85mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Qorvo" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RFPA5542BTR13" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="772-RFPA5542BTR13" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Qorvo/RFPA5542BTR13?qs=u4fy%2FsgLU9OIcUWfOD%252Bf6g%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="QFN50P400X400X85-21N_THERMAL_VIAS" package="QFN50P400X400X85-21N">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TPS613222ADBVR" prefix="IC">
+<description>&lt;b&gt;6-uA Quiescent Current, 1.8-A Switch Current Boost Converter&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.ti.com/lit/gpn/tps61322"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="TPS613222ADBVR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT95P280X145-5N">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="NC_1" pad="3"/>
+<connect gate="G$1" pin="NC_2" pad="5"/>
+<connect gate="G$1" pin="SW" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="6-uA Quiescent Current, 1.8-A Switch Current Boost Converter" constant="no"/>
+<attribute name="HEIGHT" value="1.45mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TPS613222ADBVR" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-TPS613222ADBVR" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS613222ADBVR?qs=W0yvOO0ixfE4d69WXsn8NQ%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HMC430LP4ETR" prefix="IC">
+<description>&lt;b&gt;VCO Oscillators VCO SMT w/Buffer amp, 5.0 - 5.5 GHz&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.analog.com/media/en/technical-documentation/data-sheets/hmc430.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="HMC430LP4ETR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN50P400X400X100-25N">
+<connects>
+<connect gate="G$1" pin="GND_1" pad="15"/>
+<connect gate="G$1" pin="GND_2" pad="25"/>
+<connect gate="G$1" pin="N/C_1" pad="1"/>
+<connect gate="G$1" pin="N/C_10" pad="10"/>
+<connect gate="G$1" pin="N/C_11" pad="11"/>
+<connect gate="G$1" pin="N/C_12" pad="12"/>
+<connect gate="G$1" pin="N/C_13" pad="13"/>
+<connect gate="G$1" pin="N/C_14" pad="14"/>
+<connect gate="G$1" pin="N/C_15" pad="17"/>
+<connect gate="G$1" pin="N/C_16" pad="18"/>
+<connect gate="G$1" pin="N/C_17" pad="19"/>
+<connect gate="G$1" pin="N/C_18" pad="21"/>
+<connect gate="G$1" pin="N/C_19" pad="23"/>
+<connect gate="G$1" pin="N/C_2" pad="2"/>
+<connect gate="G$1" pin="N/C_20" pad="24"/>
+<connect gate="G$1" pin="N/C_3" pad="3"/>
+<connect gate="G$1" pin="N/C_4" pad="4"/>
+<connect gate="G$1" pin="N/C_5" pad="5"/>
+<connect gate="G$1" pin="N/C_6" pad="6"/>
+<connect gate="G$1" pin="N/C_7" pad="7"/>
+<connect gate="G$1" pin="N/C_8" pad="8"/>
+<connect gate="G$1" pin="N/C_9" pad="9"/>
+<connect gate="G$1" pin="RFOUT" pad="16"/>
+<connect gate="G$1" pin="VCC" pad="20"/>
+<connect gate="G$1" pin="VTUNE" pad="22"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="VCO Oscillators VCO SMT w/Buffer amp, 5.0 - 5.5 GHz" constant="no"/>
+<attribute name="HEIGHT" value="1mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Analog Devices" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="HMC430LP4ETR" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="584-HMC430LP4ETR" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Analog-Devices/HMC430LP4ETR?qs=pceeu5JH%2FH8gg6v6ve1tvQ%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HMC408LP3E" prefix="IC">
+<description>&lt;b&gt;RF Amplifier 1 Watt pow amp SMT, 5.1 - 5.9 GHz&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/HMC408LP3E.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="HMC408LP3E" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN50P300X300X100-17N">
+<connects>
+<connect gate="G$1" pin="GND" pad="17"/>
+<connect gate="G$1" pin="N/C_1" pad="2"/>
+<connect gate="G$1" pin="N/C_2" pad="4"/>
+<connect gate="G$1" pin="N/C_3" pad="5"/>
+<connect gate="G$1" pin="N/C_4" pad="6"/>
+<connect gate="G$1" pin="N/C_5" pad="7"/>
+<connect gate="G$1" pin="N/C_6" pad="8"/>
+<connect gate="G$1" pin="N/C_7" pad="12"/>
+<connect gate="G$1" pin="N/C_8" pad="13"/>
+<connect gate="G$1" pin="N/C_9" pad="15"/>
+<connect gate="G$1" pin="RFIN" pad="3"/>
+<connect gate="G$1" pin="RFOUT_1" pad="9"/>
+<connect gate="G$1" pin="RFOUT_2" pad="10"/>
+<connect gate="G$1" pin="RFOUT_3" pad="11"/>
+<connect gate="G$1" pin="VCC1" pad="16"/>
+<connect gate="G$1" pin="VCC2" pad="14"/>
+<connect gate="G$1" pin="VPD" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="RF Amplifier 1 Watt pow amp SMT, 5.1 - 5.9 GHz" constant="no"/>
+<attribute name="HEIGHT" value="1mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Analog Devices" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="HMC408LP3E" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="584-HMC408LP3E" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=584-HMC408LP3E" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

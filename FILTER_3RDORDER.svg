@@ -18,134 +18,110 @@
 <rect width="100%" height="100%" fill="white"/>
 
     
-        <rect x="591.3867257233483" y="96.0" width="0.1" height="180.0" 
+        <rect x="573.3078553915841" y="96.0" width="0.1" height="180.0" 
         
             style="fill:white;stroke:black;stroke-width:1;opacity:1" />
         
     
-        <rect x="586.3867257233483" y="96.0" width="10" height="0.1" 
+        <rect x="568.3078553915841" y="96.0" width="10" height="0.1" 
         
             style="fill:white;stroke:black;stroke-width:1;opacity:1" />
         
     
-        <rect x="586.3867257233483" y="276.0" width="10" height="0.1" 
+        <rect x="568.3078553915841" y="276.0" width="10" height="0.1" 
         
             style="fill:white;stroke:black;stroke-width:1;opacity:1" />
         
     
-        <rect x="483.36622276546626" y="86.0" width="73.26755446906748" height="0.1" 
+        <rect x="502.0779193121438" y="86.0" width="35.844161375712446" height="0.1" 
         
             style="fill:white;stroke:black;stroke-width:1;opacity:1" />
         
     
-        <rect x="483.36622276546626" y="81.0" width="0.1" height="10" 
+        <rect x="502.0779193121438" y="81.0" width="0.1" height="10" 
         
             style="fill:white;stroke:black;stroke-width:1;opacity:1" />
         
     
-        <rect x="556.6337772345338" y="81.0" width="0.1" height="10" 
+        <rect x="537.9220806878562" y="81.0" width="0.1" height="10" 
         
             style="fill:white;stroke:black;stroke-width:1;opacity:1" />
         
     
-        <rect x="458.6132742766518" y="237.8856409824075" width="16.50196565920966" height="8.25098282960483" 
+        <rect x="476.6921446084159" y="225.32856814301823" width="16.923849802485268" height="8.461924901242636" 
         
             style="fill:black;stroke:black;stroke-width:1;opacity:1" />
         
     
-        <rect x="483.36622276546626" y="96.0" width="8.25098282960483" height="180.0" 
+        <rect x="502.0779193121438" y="96.0" width="8.461924901242636" height="180.0" 
         
             style="fill:black;stroke:black;stroke-width:1;opacity:1" />
         
     
-        <rect x="498.8044624276811" y="100.80701777007656" width="8.25098282960483" height="175.19298222992344" 
+        <rect x="515.7690375493787" y="105.5336939686087" width="8.461924901242636" height="170.4663060313913" 
         
             style="fill:black;stroke:black;stroke-width:1;opacity:1" />
         
     
-        <rect x="515.8745085851976" y="100.80701777007656" width="8.25098282960483" height="175.19298222992344" 
+        <rect x="529.4601557866135" y="96.0" width="8.461924901242636" height="180.0" 
         
             style="fill:black;stroke:black;stroke-width:1;opacity:1" />
         
     
-        <rect x="532.9445547427142" y="100.80701777007656" width="8.25098282960483" height="175.19298222992344" 
-        
-            style="fill:black;stroke:black;stroke-width:1;opacity:1" />
-        
-    
-        <rect x="548.382794404929" y="96.0" width="8.25098282960483" height="180.0" 
-        
-            style="fill:black;stroke:black;stroke-width:1;opacity:1" />
-        
-    
-        <rect x="564.8847600641386" y="237.8856409824075" width="16.50196565920966" height="8.25098282960483" 
+        <rect x="546.3840055890987" y="225.32856814301823" width="16.923849802485268" height="8.461924901242636" 
         
             style="fill:black;stroke:black;stroke-width:1;opacity:1" />
         
     
     
     
-        <circle cx="487.4917141802687" cy="276.0" r="2.0627457074012074" 
+        <circle cx="506.3088817627651" cy="276.0" r="2.115481225310659" 
         
             style="fill:black;stroke:black;stroke-width:1;opacity:1" />
         
     
-        <circle cx="502.9299538424835" cy="100.80701777007656" r="2.0627457074012074" 
+        <circle cx="520.0" cy="105.5336939686087" r="2.115481225310659" 
         
             style="fill:black;stroke:black;stroke-width:1;opacity:1" />
         
     
-        <circle cx="520.0000000000001" cy="276.0" r="2.0627457074012074" 
-        
-            style="fill:black;stroke:black;stroke-width:1;opacity:1" />
-        
-    
-        <circle cx="537.0700461575167" cy="100.80701777007656" r="2.0627457074012074" 
-        
-            style="fill:black;stroke:black;stroke-width:1;opacity:1" />
-        
-    
-        <circle cx="552.5082858197314" cy="276.0" r="2.0627457074012074" 
+        <circle cx="533.6911182372348" cy="276.0" r="2.115481225310659" 
         
             style="fill:black;stroke:black;stroke-width:1;opacity:1" />
         
     
 
     
-        <polygon points="475.11523993586144,237.8856409824075 483.36622276546626,239.9483866898087 483.36622276546626,244.0738781046111 475.11523993586144,246.13662381201232" style="fill:black;stroke:black;stroke-width:1;opacity:1" />
+        <polygon points="493.6159944109012,225.32856814301823 502.0779193121438,227.4440493683289 502.0779193121438,231.6750118189502 493.6159944109012,233.79049304426087" style="fill:black;stroke:black;stroke-width:1;opacity:1" />
     
-        <polygon points="556.6337772345338,239.9483866898087 564.8847600641386,237.8856409824075 564.8847600641386,246.13662381201232 556.6337772345338,244.0738781046111" style="fill:black;stroke:black;stroke-width:1;opacity:1" />
+        <polygon points="537.9220806878561,227.4440493683289 546.3840055890987,225.32856814301823 546.3840055890987,233.79049304426087 537.9220806878561,231.6750118189502" style="fill:black;stroke:black;stroke-width:1;opacity:1" />
     
 
     
-        <text x="157" y="85" style = "font-size:12px; font-family:'Roboto'">W0 = 365.4 um</text>
+        <text x="157" y="85" style = "font-size:12px; font-family:'Roboto'">W0 = 372.1 um</text>
     
-        <text x="157" y="100" style = "font-size:12px; font-family:'Roboto'">W = 365.4 um</text>
+        <text x="157" y="100" style = "font-size:12px; font-family:'Roboto'">W = 372.1 um</text>
     
-        <text x="157" y="115" style = "font-size:12px; font-family:'Roboto'">L = 7.759 mm</text>
+        <text x="157" y="115" style = "font-size:12px; font-family:'Roboto'">L = 7.496 mm</text>
     
-        <text x="157" y="130" style = "font-size:12px; font-family:'Roboto'">t = 1.505 mm</text>
+        <text x="157" y="130" style = "font-size:12px; font-family:'Roboto'">t = 2.042 mm</text>
     
-        <text x="157" y="145" style = "font-size:12px; font-family:'Roboto'">e = 212.9 um</text>
+        <text x="157" y="145" style = "font-size:12px; font-family:'Roboto'">e = 419.2 um</text>
     
-        <text x="157" y="175" style = "font-size:12px; font-family:'Roboto'">S1 = 318.3 um</text>
+        <text x="157" y="175" style = "font-size:12px; font-family:'Roboto'">S1 = 230.0 um</text>
     
-        <text x="157" y="190" style = "font-size:12px; font-family:'Roboto'">S2 = 390.6 um</text>
+        <text x="157" y="190" style = "font-size:12px; font-family:'Roboto'">S2 = 230.0 um</text>
     
-        <text x="157" y="205" style = "font-size:12px; font-family:'Roboto'">S3 = 390.6 um</text>
+        <text x="582.3078553915841" y="186.0" style = "font-size:12px; font-family:'Roboto'; text-anchor:middle; writing-mode: tb">7.916 mm</text>
     
-        <text x="157" y="220" style = "font-size:12px; font-family:'Roboto'">S4 = 318.3 um</text>
+        <text x="520.0" y="80.0" style = "font-size:12px; font-family:'Roboto'; text-anchor:middle">1.576 mm</text>
     
-        <text x="600.3867257233483" y="186.0" style = "font-size:12px; font-family:'Roboto'; text-anchor:middle; writing-mode: tb">7.972 mm</text>
+        <text x="7" y="279" style = "font-size:12px; font-family:'Roboto'">markimicrowave.com  |  Sep 08, 2023</text>
     
-        <text x="520.0" y="80.0" style = "font-size:12px; font-family:'Roboto'; text-anchor:middle">3.245 mm</text>
-    
-        <text x="7" y="279" style = "font-size:12px; font-family:'Roboto'">markimicrowave.com  |  Apr 09, 2023</text>
-    
-    <text x="144" y="16" style = "font-size:16px; font-family:'Roboto';">5th Order Chebyshev Bandpass</text>
-    <text x="144" y="32" style = "font-size:12px; font-family:'Roboto';">Lower Cutoff Freq. = 4.900 GHz; Upper Cutoff Freq. = 5.500 GHz</text>
-    <text x="144" y="47" style = "font-size:12px; font-family:'Roboto';">Passband Ripple = 0.1 dB</text>
-    <text x="144" y="62" style = "font-size:12px; font-family:'Roboto';">Substrate: εr = 4.600 , Height = 210.0 um, Thickness = 25.00 um</text>
+    <text x="144" y="16" style = "font-size:16px; font-family:'Roboto';">3rd Order Butterworth Bandpass</text>
+    <text x="144" y="32" style = "font-size:12px; font-family:'Roboto';">Lower Cutoff Freq. = 5.000 GHz; Upper Cutoff Freq. = 6.000 GHz</text>
+    <text x="144" y="47" style = "font-size:12px; font-family:'Roboto';"></text>
+    <text x="144" y="62" style = "font-size:12px; font-family:'Roboto';">Substrate: εr = 4.400 , Height = 210.4 um, Thickness = 35.00 um</text>
     <g style="stroke:rgb(0,0,0); stroke-width:1; shape-rendering:crispEdges">
         <line x1="137" y1="1" x2="137" y2="65" />
     </g>
