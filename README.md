@@ -18,3 +18,5 @@ https://www.mouser.pl/datasheet/2/597/lps4018-270702.pdf
 
 PCB (very important for the stripline filter to work!)
 JLC04161H-7628 Stackup
+
+BOM comming soon...
