@@ -12,7 +12,8 @@ https://www.mouser.pl/ProductDetail/Microchip-Technology/MIC94310-SYM5-TR?qs=U6T
 
 2.2 2.5 75 3.2 × 2.5 × 1.2 HMME32251B--2R2MS CYNTEC
 Coils
-https://www.mouser.pl/ProductDetail/Coilcraft/LPS4018-222MRC?qs=sGAEpiMZZMv126LJFLh8y0AqKGTZa5ph6DWo8OFeUZg%3D
+Have to handle 2.5A of peak switch current!
+https://www.mouser.pl/ProductDetail/Laird-Performance-Materials/TYS40304R7M-10?qs=cCJXSq33DME5rIwYhom2LA%3D%3D
 
 https://www.mouser.pl/datasheet/2/597/lps4018-270702.pdf
 
